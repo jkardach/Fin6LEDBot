@@ -11,6 +11,10 @@
 		3D7B76742A81692700A71F62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B76732A81692700A71F62 /* ContentView.swift */; };
 		3D7B76762A81692800A71F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7B76752A81692800A71F62 /* Assets.xcassets */; };
 		3D7B76792A81692800A71F62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7B76782A81692800A71F62 /* Preview Assets.xcassets */; };
+		3D7B76822A816FB900A71F62 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B76812A816FB900A71F62 /* BLEManager.swift */; };
+		3D7B76862A81E96B00A71F62 /* LEDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B76852A81E96B00A71F62 /* LEDView.swift */; };
+		3D7B76882A81EA8200A71F62 /* LED.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B76872A81EA8200A71F62 /* LED.swift */; };
+		3D7B768A2A81F53B00A71F62 /* DartConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B76892A81F53B00A71F62 /* DartConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		3D7B76732A81692700A71F62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D7B76752A81692800A71F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D7B76782A81692800A71F62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D7B76812A816FB900A71F62 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		3D7B76852A81E96B00A71F62 /* LEDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDView.swift; sourceTree = "<group>"; };
+		3D7B76872A81EA8200A71F62 /* LED.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LED.swift; sourceTree = "<group>"; };
+		3D7B76892A81F53B00A71F62 /* DartConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				3D7B76712A81692700A71F62 /* Fin6LEDBotApp.swift */,
+				3D7B76812A816FB900A71F62 /* BLEManager.swift */,
+				3D7B76852A81E96B00A71F62 /* LEDView.swift */,
+				3D7B76872A81EA8200A71F62 /* LED.swift */,
+				3D7B76892A81F53B00A71F62 /* DartConfig.swift */,
 				3D7B76732A81692700A71F62 /* ContentView.swift */,
 				3D7B76752A81692800A71F62 /* Assets.xcassets */,
 				3D7B76772A81692800A71F62 /* Preview Content */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7B76862A81E96B00A71F62 /* LEDView.swift in Sources */,
 				3D7B76742A81692700A71F62 /* ContentView.swift in Sources */,
+				3D7B76822A816FB900A71F62 /* BLEManager.swift in Sources */,
 				3D7B76722A81692700A71F62 /* Fin6LEDBotApp.swift in Sources */,
+				3D7B768A2A81F53B00A71F62 /* DartConfig.swift in Sources */,
+				3D7B76882A81EA8200A71F62 /* LED.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +286,9 @@
 				DEVELOPMENT_TEAM = NMC4QMEM2Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Can this app use Bluetooth";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Can this application use Bluetooth?";
+				INFOPLIST_KEY_NSBluetoothWhileInUseUsageDescription = "Can this app use Bluetooth";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,9 @@
 				DEVELOPMENT_TEAM = NMC4QMEM2Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Can this app use Bluetooth";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Can this application use Bluetooth?";
+				INFOPLIST_KEY_NSBluetoothWhileInUseUsageDescription = "Can this app use Bluetooth";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
